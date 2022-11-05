@@ -16,34 +16,34 @@ const Header = () => {
         <div className="lg:flex justify-between items-center  hidden">
           <div className="flex justify-center items-center">
             {/* Logo */}
-            <Link href="/">
+            <Link to="/">
               <div className="flex gap-3">
                 <img className="w-36" src="/logo.png" alt="logo" />
               </div>
             </Link>
             {/* Nav Button */}
             <div className="flex pl-7 gap-5 font-semibold text-gray-700">
-              <Link href="/">
+              <Link to="/">
                 <a className=" text-black font-semibold text-xl hover:text-blue-700 transition-all duration-150 ">
                   Home
                 </a>
               </Link>
-              <Link href="/">
+              <Link to="/about">
                 <a className=" text-black font-semibold text-xl hover:text-blue-700 transition-all duration-150 ">
                   About us
                 </a>
               </Link>
-              <Link href="/">
+              <Link to="/">
                 <a className=" text-black font-semibold text-xl hover:text-blue-700 transition-all duration-150 ">
                   Our Vision
                 </a>
               </Link>
-              <Link href="/">
+              <Link to="/">
                 <a className=" text-black font-semibold text-xl hover:text-blue-700 transition-all duration-150 ">
                   Faq
                 </a>
               </Link>
-              <Link href="/">
+              <Link to="/">
                 <a className=" text-black font-semibold text-xl hover:text-blue-700 transition-all duration-150 ">
                   Conact us
                 </a>
@@ -64,7 +64,7 @@ const Header = () => {
         <div>
           <div className="lg:hidden flex justify-between items-center">
             {/* Logo */}
-            <Link href="/">
+            <Link to="/">
               <div className=" flex gap-3">
                 <img className="w-24" src="/logo.png" alt="logo" />
               </div>
@@ -88,27 +88,27 @@ const Header = () => {
                   : "hidden"
               }
             >
-              <Link href="/">
+              <Link to="/">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   Home
                 </a>
               </Link>
-              <Link href="/">
+              <Link to="/about">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   About us
                 </a>
               </Link>
-              <Link href="/">
+              <Link to="/">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   Our Vision
                 </a>
               </Link>
-              <Link href="/">
+              <Link to="/">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   Faq
                 </a>
               </Link>
-              <Link href="/">
+              <Link to="/">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   Conact us
                 </a>
