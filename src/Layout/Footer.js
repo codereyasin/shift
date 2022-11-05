@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     // Mobile Screen
-    <div className="sm:hidden top-[77vh] z-10 items-center pr-5 flex justify-between">
+    <div className="sm:hidden top-[77vh] z-10 items-center pt-10 pr-5 flex justify-between">
       <div className="flex justify-end absolute right-2 items-center gap-1 border px-3 py-2 rounded-2xl outline-none text-black font-semibold">
         <select name="Nav" className="outline-none border-none" >
           <option
