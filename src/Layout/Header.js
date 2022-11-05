@@ -12,7 +12,7 @@ const Header = () => {
     <header className="bg-white  py-2">
       <div className="lg:p-2 p-3 lg:px-16 px-5 mx-auto">
         {/* pc  */}
-        <div className="xl:flex justify-between items-center  hidden">
+        <div className="lg:flex justify-between items-center  hidden">
           <div className="flex justify-center items-center">
             {/* Logo */}
             <Link href="/">
@@ -61,7 +61,7 @@ const Header = () => {
 
         {/* andorid */}
         <div>
-          <div className="xl:hidden flex justify-between items-center">
+          <div className="lg:hidden flex justify-between items-center">
             {/* Logo */}
             <Link href="/">
               <div className=" flex gap-3">
