@@ -17,7 +17,9 @@ const Footer = () => {
             className="level-0 "
             value="breads-sweets"
           >
-           <a href='/About'> About us <AiOutlineDown /></a>
+          <Link href="/about">
+          <a className="hover:text-gray-400"> About us <AiOutlineDown /></a>
+          </Link>
           </option>
           <option
             className="level-0 "
