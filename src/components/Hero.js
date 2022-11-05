@@ -1,8 +1,9 @@
 import React from "react";
+import Button from "../shared/button/button";
 
 const Hero = () => {
   return (
-    <div className="lg:p-2 p-3 lg:px-16 px-5 mx-auto flex justify-center items-center h-[70vh]">
+    <div className="lg:p-2 p-3 lg:px-16 px-5 mx-auto flex justify-center items-center ">
       <div className="flex justify-between xl:space-x-[200px] pt-10">
         <div className="flex justify-center flex-col items-start">
            <img className="pb-10 md:w-[130px]  w-20  " src="/poly.png" alt="" />
@@ -14,9 +15,7 @@ const Hero = () => {
             With shift you will move to the  next level in the online business
             space. Cool?
           </p>
-          <button className="md:w-[25%] px-4  rounded-xl gap-2 flex justify-center items-center p-2 h-14 bg-[#CC1616] text-white">
-            Create your store!
-          </button>
+          <Button name={'Create your store!'} link={'/Signup'}/>
         </div>
         <div>
           <img className="md:w-[400px] w-[500px] flex justify-center items-center" src="/heromain.png" alt="" />

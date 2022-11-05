@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Button from "../shared/button/button";
 import Footer from "./Footer";
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -52,7 +53,7 @@ const Header = () => {
           </div>
           <div className="flex space-x-3">
             <button className="hover:bg-[#e71919fb] bg-transparent transition-all duration-200 rounded-lg p-2 border text-black font-semibold hover:text-white ">
-              Create your store!
+              <Link to={'/Signup'}><a >Create your store!</a></Link>
             </button>
             <button className="hover:bg-transparent bg-green-400 transition-all duration-200 rounded-2xl p-2 px-6 border text-black font-semibold hover:text-black">
               Log in
@@ -115,9 +116,7 @@ const Header = () => {
               </Link>
               <div className="flex flex-col space-y-4">
                 <div className="flex justify-center w-full">
-                <button className="px-3 rounded-xl gap-2 flex justify-center items-center h-14 bg-[#CC1616] text-white">
-                  Create your store! <span className=" justify-center items-center flex w-[80px] bg-white text-white h-1"></span>
-                </button>
+                 <Button name={'Create your store! '} link={'/Signup'}/>
                 </div>
                 <button className="text-gray-500 text-xl">
                  Store owner? <span className="text-red-500">Log in</span>
