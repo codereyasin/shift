@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../shared/button/button";
 const OnlineStore = () => {
   return (
-    <div className="lg:p-2 p-3 lg:px-16 px-5 mx-auto space-y-6 flex justify-center flex-col items-center h-[70vh]">
+    <div className="lg:p-2 p-3 lg:px-16 px-5 mx-auto space-y-6 flex justify-center flex-col items-center">
       <div className="space-y-5 flex justify-center flex-col items-center ">
         <div className="flex flex-col items-center justify-center space-y-5">
           <h1 className="text-black text-4xl font-bold">Online Store</h1>
