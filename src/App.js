@@ -11,7 +11,7 @@ function App() {
     <main>
      <Routes>
             <Route path="/*" element={<Hero />} />
-            <Route path="/about" element={<About />} />
+            {/* <Route path="/about" element={<About />} /> */}
             <Route path="/signup" element={<Signup />} />
       </Routes>
       {/*    <div className="sm:flex hidden"> */}
