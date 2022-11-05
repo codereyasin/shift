@@ -113,9 +113,11 @@ const Header = () => {
                 </a>
               </Link>
               <div className="flex flex-col space-y-4">
-                <button className="w-full rounded-xl gap-2 flex justify-center items-center h-14 bg-[#CC1616] text-white">
+                <div className="flex justify-center w-full">
+                <button className="px-3 rounded-xl gap-2 flex justify-center items-center h-14 bg-[#CC1616] text-white">
                   Create your store! <span className=" justify-center items-center flex w-[80px] bg-white text-white h-1"></span>
                 </button>
+                </div>
                 <button className="text-gray-500 text-xl">
                  Store owner? <span className="text-red-500">Log in</span>
                 </button>
