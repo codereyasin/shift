@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 const Header = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -125,7 +126,8 @@ const Header = () => {
               <div className="w-full flex justify-center">
                 <div className="text-black w-28 rounded-full flex justify-center bg-red-300 py-2 items-center "> Arabic</div>
               </div>
-            </div>
+              <Footer />
+            </div> 
           </div>
         </div>
       </div>
