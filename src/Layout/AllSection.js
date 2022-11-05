@@ -3,6 +3,7 @@ import About from '../components/About'
 import OurVision from '../components/OurVision'
 import Contact from '../components/Contact'
 import OnlineStore from '../components/OnlineStore'
+import Learn from '../components/Learn'
 
 const AllSection = () => {
   return (
@@ -11,6 +12,7 @@ const AllSection = () => {
     <OurVision />
     <OnlineStore/>
     <Contact/>
+    <Learn/>
     </>
   )
 }
