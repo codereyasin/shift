@@ -6,11 +6,16 @@ import About from "./components/About";
 function App() {
   return (
     <div className="App">
+      
     <main>
      <Routes>
             <Route path="/*" element={<Hero />} />
             <Route path="/About" element={<About />} />
-          </Routes>
+      </Routes>
+      
+      <div className="sm:flex hidden">
+      <AllSection/>
+      </div>
     </main>
     </div>
   );
