@@ -24,7 +24,7 @@ const OnlineStore = () => {
        </div>
       </div>
       <div className="space-y-4 justify-center items-center flex flex-col">
-        <input className="border outline-none py-4 px-2 md:w-[400px] w-[290px]" type="text" placeholder="Pick a domain name: www.yourname.com" />
+        <input className="border outline-none py-4 px-2 md:w-[400px] rounded-xl w-[290px]" type="text" placeholder="Pick a domain name: www.yourname.com" />
         <Button name={"Pay now!"} link={"/"} />
       </div>
     </div>
