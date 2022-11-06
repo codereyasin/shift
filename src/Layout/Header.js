@@ -95,7 +95,7 @@ const Header = () => {
                   : "hidden"
               }
             >
-              <Link to="/">
+              <Link to="/MobileHero">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   Home
                 </a>
@@ -105,17 +105,17 @@ const Header = () => {
                   About us
                 </a>
               </Link>
-              <Link to="/">
+              <Link to="/ourvision">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   Our Vision
                 </a>
               </Link>
-              <Link to="/">
+              <Link to="/faq">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   Faq
                 </a>
               </Link>
-              <Link to="/">
+              <Link to="/MobileContact">
                 <a className="hover:bg-gray-100 hover:text-start hover:justify-start flex hover:py-3 px-2 text-black font-semibold text-xl transition-all duration-150 ">
                   Conact us
                 </a>

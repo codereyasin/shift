@@ -1,0 +1,8 @@
+export { default as MobileAbout } from "./MobileAbout/MobileAbout"
+export { default as MobileContact } from "./MobileContact/MobileContact"
+export { default as MobileHero} from "./MobileHero/MobileHero"
+export { default as Learn } from "./MobileLearn/MobileLearn"
+export { default as OnlineStore } from "./MobileOnlineStore/MobileOnlineStore"
+export { default as MobileOurVision } from "./MobileOurVision/MobileOurVision"
+export { default as Mobilefaq } from "./Mobilefaq/Mobilefaq"
+export { default as Singup } from "./Singup/Signup"

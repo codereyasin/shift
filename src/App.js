@@ -1,16 +1,10 @@
-import AllSection from "./Layout/AllSection";
-import { Route, Routes } from "react-router-dom";
-import { Ourvision, Singup } from "./components/Index";
+import MobileRoute from "./screen/MobileRoute";
 
 function App() {
   return (
     <div className="App ">
-      <main>
-        <Routes>
-          <Route path="/*" element={<AllSection />} />
-          <Route path="/ourvision" element={<Ourvision />} />
-          <Route path="/signup" element={<Singup />} />
-        </Routes>
+      <main> 
+       <MobileRoute/>
       </main>
     </div>
   );
