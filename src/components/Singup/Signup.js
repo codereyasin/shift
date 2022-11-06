@@ -41,7 +41,6 @@ const Signup = () => {
           type="password"
           placeholder="Paswword"
         />
-     
       </div>
       <div className="flex justify-start gap-2">
         <input type="radio" name="" id="" />
