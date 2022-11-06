@@ -1,14 +1,13 @@
 import React from "react";
-import Button from "../shared/button/button";
+import Button from "../../shared/button/button";
+import Title from "../../shared/Title/title";
 const OnlineStore = () => {
   return (
     <div className="lg:p-2 p-3 lg:px-16 px-5 mx-auto space-y-6 flex justify-center flex-col items-center">
       <div className="space-y-5 flex justify-center flex-col items-center ">
-        <div className="flex flex-col items-center justify-center space-y-5">
-          <h1 className="text-black text-4xl font-bold">Online Store</h1>
-          <p className="text-xl">
-            We not like other! All main features is unlimited counts !
-          </p>
+        <div className="flex flex-col items-center justify-center space-y-2">
+        <Title title1={'Online Store'} description={'We not like other! All main features is unlimited counts !'}/>
+
         </div>
        <div className="flex md:flex-row items-center justify-center md:space-y-0 gap-3 space-y-4 flex-col">
        <div className="rounded-xl border  flex-col py-4  w-52 h-28 px-2 justify-start flex">

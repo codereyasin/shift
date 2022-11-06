@@ -1,0 +1,7 @@
+export { default as About } from "./About/About"
+export { default as Contact } from "./Contact/Contact"
+export { default as Hero } from "./Hero/Hero"
+export { default as Learn } from "./Learn/Learn"
+export { default as OnlineStore } from "./OnlineStore/OnlineStore"
+export { default as Ourvision } from "./OurVision/OurVision"
+export { default as Singup } from "./Singup/Signup"

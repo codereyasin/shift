@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "../shared/button/button";
+import Button from "../../shared/button/button";
+import Title from "../../shared/Title/title";
 
 const About = () => {
   return (
@@ -8,8 +9,7 @@ const About = () => {
           <img className="w-[400px]" src="/aboutimage.png" alt="" />
             </div>
         <div className="flex justify-end flex-col">
-          <h1 className="font-bold  text-4xl">All you need to know<br/> about us..</h1>
-          <p className="text-xl py-4">We provide you with your own customizable e-store that will suit all your needs.</p>
+         <Title title1={'All you need to know '} title2={'about us..'} description={'We provide you with your own customizable e-store that will suit all your needs'}/>
           <div className="w-full">
            <Button name={"Hit it!"} link={'/'}/>
         </div>

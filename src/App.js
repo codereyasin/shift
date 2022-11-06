@@ -1,8 +1,6 @@
 import AllSection from "./Layout/AllSection";
 import { Route, Routes } from "react-router-dom";
-
-import About from "./components/About";
-import Signup from "./components/Signup";
+import { Singup } from "./components/Index";
 
 function App() {
   return (
@@ -11,7 +9,7 @@ function App() {
         <Routes>
           <Route path="/" element={<AllSection />} />
           {/* <Route path="/about" element={<About />} /> */}
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/signup" element={<Singup />} />
         </Routes>
            <div className="sm:flex hidden">
         </div>
@@ -19,5 +17,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
