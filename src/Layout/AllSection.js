@@ -3,7 +3,7 @@ import { About, Contact, Hero, Learn, OnlineStore, Ourvision } from '../componen
 
 const AllSection = () => {
   return (
-    <div className=''>
+    <div className='overflow-x-scroll'>
     <Hero/>
     <About/>
     <Ourvision />

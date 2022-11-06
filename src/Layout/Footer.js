@@ -4,12 +4,14 @@ import { Link, useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
   function handleRedirect(e) {
-    console.log(e.target.value)
     if (e.target.value === "home") navigate("/MobileHero");
     if (e.target.value === "ourvision") navigate("/ourvision");
     if (e.target.value === "contactus") navigate("/MobileContact");
     if (e.target.value === "faq") navigate("/faq");
     if (e.target.value === "about") navigate("/about");
+
+    if (e.target.value === "ourvision") navigate("ourvision");
+    if (e.target.value === "home") navigate("/");
   }
 
   return (
@@ -26,11 +28,26 @@ const Footer = () => {
               className="level-0 bg-transparent border-none outline-none "
               value="home"
             >
+<<<<<<< HEAD
                 Home <AiOutlineDown />
             </option>
             <option className="level-0 " value="about">
                   {" "}
                   About us <AiOutlineDown />
+=======
+              <Link to="/">
+                {" "}
+                Home <AiOutlineDown />
+              </Link>
+            </option>
+            <option className="level-0 " value="about">
+              <Link to="/about">
+                <a className="hover:text-gray-400">
+                  {" "}
+                  About us <AiOutlineDown />
+                </a>
+              </Link>
+>>>>>>> 2054ffa0b7685a559ac3436822f15328c84fa5c0
             </option>
             <option className="level-0" value="ourvision">
               {" "}
