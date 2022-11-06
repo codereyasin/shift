@@ -14,7 +14,7 @@ const Learn = () => {
         <h1 className="text-white text-4xl items-center justify-center flex font-bold py-14">
           Read, watch and learn
         </h1>
-        <div className="bg-white py-11 pl-7 rounded-t-2xl ">
+        <div className="bg-white py-11 pl-7 rounded-t-2xl">
           <div className="items-start gap-5 justify-start flex text-black font-semibold">
             <h1
               className={`${video ? 'text-start rounded-2xl bg-red-200 px-3 py-1' : 'text-start rounded-2xl bg-transparent border px-4 py-1' } `}

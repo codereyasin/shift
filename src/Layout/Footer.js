@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="py-10 mx-auto container flex justify-center ">
-    <div className="bg-red-500  px-7">
+    <div className="font-bold text-2xl px-7">
     Footer Add soon
     </div>
     </div>
