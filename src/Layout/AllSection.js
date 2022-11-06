@@ -3,14 +3,14 @@ import { About, Contact, Hero, Learn, OnlineStore, Ourvision } from '../componen
 
 const AllSection = () => {
   return (
-    <>
+    <div className=''>
     <Hero/>
     <About/>
     <Ourvision />
     <OnlineStore/>
     <Contact/>
     <Learn/>
-    </>
+    </div>
   )
 }
 

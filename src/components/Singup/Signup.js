@@ -41,9 +41,7 @@ const Signup = () => {
           type="password"
           placeholder="Paswword"
         />
-        <span className="absolute right-[530px] top-[430px]">
-          <BiShowAlt size={27} />
-        </span>
+     
       </div>
       <div className="flex justify-start gap-2">
         <input type="radio" name="" id="" />

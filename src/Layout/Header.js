@@ -51,9 +51,15 @@ const Header = () => {
               </Link>
             </div>
           </div>
-          <div className="flex space-x-3">
+          <div className="flex  space-x-2">
+              <select className="text-black  rounded-xl flex justify-center bg-red-300 py-2 px-2 items-center ">
+                <option value="">Arabic</option>
+                <option value="">English</option>
+              </select>
             <button className="hover:bg-[#e71919fb] bg-transparent transition-all duration-200 rounded-lg p-2 border text-black font-semibold hover:text-white ">
-              <Link to={'/Signup'}><a >Create your store!</a></Link>
+              <Link to={"/Signup"}>
+                <a>Create your store!</a>
+              </Link>
             </button>
             <button className="hover:bg-transparent bg-green-400 transition-all duration-200 rounded-2xl p-2 px-6 border text-black font-semibold hover:text-black">
               Log in
@@ -116,17 +122,20 @@ const Header = () => {
               </Link>
               <div className="flex flex-col space-y-4">
                 <div className="flex justify-center w-full">
-                 <Button name={'Create your store! '} link={'/Signup'}/>
+                  <Button name={"Create your store! "} link={"/Signup"} />
                 </div>
                 <button className="text-gray-500 text-xl">
-                 Store owner? <span className="text-red-500">Log in</span>
+                  Store owner? <span className="text-red-500">Log in</span>
                 </button>
               </div>
               <div className="w-full flex justify-center">
-                <div className="text-black w-28 rounded-full flex justify-center bg-red-300 py-2 items-center "> Arabic</div>
+                <div className="text-black w-28 rounded-full flex justify-center bg-red-300 py-2 items-center ">
+                  {" "}
+                  Arabic
+                </div>
               </div>
               <Footer />
-            </div> 
+            </div>
           </div>
         </div>
       </div>
