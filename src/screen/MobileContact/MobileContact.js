@@ -4,7 +4,7 @@ import Title from '../../shared/Title/title'
 
 const MobileContact = () => {
   return (
-    <div className=" p-3 px-5 mx-auto sm:hidden flex flex-col py-10 justify-center h-[60vh]  items-center my-10 ">
+    <div className=" p-3 px-5 mx-auto sm:hidden flex flex-col py-10 justify-center h-[90%]   items-center my-10 ">
         <div className='flex gap-7'>
           <div className='relative bottom-5'>
           <Title title1={'Hey!'}description={'Talk to us …'}/>

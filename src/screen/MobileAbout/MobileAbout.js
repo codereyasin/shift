@@ -4,7 +4,7 @@ import Title from "../../shared/Title/title";
 
 const MobileAbout = () => {
   return (
-    <div className="px-5 mx-auto sm:hidden flex flex-col h-[60vh]  justify-center items-center">
+    <div className="px-5 mx-auto sm:hidden flex flex-col h-[90%]  justify-center items-center">
         <div className="flex justify-start items-center">
           <img className="w-[300px]" src="/aboutimage.png" alt="" />
             </div>

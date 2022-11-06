@@ -4,7 +4,7 @@ import Title from "../../shared/Title/title";
 
 const MobileHero = () => {
   return (   <div>
-    <div className="lg:p-2 p-3 lg:px-16 sm:hidden px-5 mx-auto flex justify-center h-[60vh]  items-center ">
+    <div className="lg:p-2 p-3 lg:px-16 sm:hidden px-5 mx-auto flex justify-center h-[90%]   items-center ">
       <div className="flex justify-between xl:space-x-[200px] pt-10">
         <div className="flex justify-center flex-col items-start">
            <img className="pb-10 md:w-[130px]  w-20  " src="/poly.png" alt="" />
