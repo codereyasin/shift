@@ -28,13 +28,11 @@ const Footer = () => {
               className="level-0 bg-transparent border-none outline-none "
               value="home"
             >
-<<<<<<< HEAD
                 Home <AiOutlineDown />
             </option>
             <option className="level-0 " value="about">
                   {" "}
                   About us <AiOutlineDown />
-=======
               <Link to="/">
                 {" "}
                 Home <AiOutlineDown />
@@ -47,7 +45,6 @@ const Footer = () => {
                   About us <AiOutlineDown />
                 </a>
               </Link>
->>>>>>> 2054ffa0b7685a559ac3436822f15328c84fa5c0
             </option>
             <option className="level-0" value="ourvision">
               {" "}
